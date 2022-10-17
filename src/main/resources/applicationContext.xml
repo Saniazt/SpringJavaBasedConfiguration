@@ -20,6 +20,9 @@
     <bean id="musicBean2"
           class = "com.saniazt.springdemo.RapMusic">
     </bean>
+    <bean id="musicBean3"
+          class="com.saniazt.springdemo.RockMusic">
+    </bean>
 
     <bean id="musicPlayer" class="com.saniazt.springdemo.MusicPlayer">
         <property name="musicList">
@@ -27,6 +30,7 @@
                 <ref bean="musicBean" />
                 <ref bean="musicBean1" />
                 <ref bean="musicBean2" />
+                <ref bean="musicBean3" />
             </list>
         </property>
         <property name="name" value="${musicPlayer.name}"/>
