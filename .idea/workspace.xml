@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456a479e-8f42-4d0d-b698-c9fdda7df291" name="Changes" comment="17.10.2022&#10;12:39">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/RockMusic.java" afterDir="false" />
+    <list default="true" id="456a479e-8f42-4d0d-b698-c9fdda7df291" name="Changes" comment="17.10.2022&#10;14:01">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/RapMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -43,9 +41,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/1/Desktop/Java_files/SpringDemo1/src/main/resources"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\Java_files\SpringDemo1\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.saniazt.springdemo.TestSpring" />
@@ -89,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665999584135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="17.10.2022&#10;14:01">
+      <created>1666004518735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666004518735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +117,27 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="17.10.2022&#10;12:15" />
     <MESSAGE value="17.10.2022&#10;12:39" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.10.2022&#10;12:39" />
+    <MESSAGE value="17.10.2022&#10;14:01" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.10.2022&#10;14:01" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/ClassicalMusic.java</url>
+          <line>4</line>
+          <properties class="com.saniazt.springdemo.ClassicalMusic" method="getSong">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
