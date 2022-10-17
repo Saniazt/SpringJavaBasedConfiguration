@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="456a479e-8f42-4d0d-b698-c9fdda7df291" name="Changes" comment="17.10.2022&#10;12:15">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+    <list default="true" id="456a479e-8f42-4d0d-b698-c9fdda7df291" name="Changes" comment="17.10.2022&#10;12:39">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saniazt/springdemo/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665998117023</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="17.10.2022&#10;12:39">
+      <created>1665999584135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665999584135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="17.10.2022&#10;12:15" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.10.2022&#10;12:15" />
+    <MESSAGE value="17.10.2022&#10;12:39" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.10.2022&#10;12:39" />
   </component>
 </project>

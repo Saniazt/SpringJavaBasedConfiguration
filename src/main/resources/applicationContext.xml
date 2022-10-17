@@ -8,10 +8,7 @@
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
 
-    <bean id="testBean"
-        class = "com.saniazt.springdemo.TestBean">
-        <constructor-arg value="Sania"/>
+    <bean id="musicBean"
+        class = "com.saniazt.springdemo.RockMusic">
     </bean>
-
-
 </beans>
