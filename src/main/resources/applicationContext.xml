@@ -24,7 +24,8 @@
           class="com.saniazt.springdemo.RockMusic">
     </bean>
 
-    <bean id="musicPlayer" class="com.saniazt.springdemo.MusicPlayer">
+    <bean id="musicPlayer" class="com.saniazt.springdemo.MusicPlayer"
+    scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicBean" />
