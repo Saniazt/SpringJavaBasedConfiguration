@@ -12,7 +12,10 @@
 
 
     <bean id="musicBean"
-        class = "com.saniazt.springdemo.ClassicalMusic">
+        class = "com.saniazt.springdemo.ClassicalMusic"
+    init-method="doMyInit"
+    destroy-method="doMyDestroy"
+    factory-method="getClassicalMusic">
     </bean>
     <bean id="musicBean1"
           class = "com.saniazt.springdemo.RockMusic">

@@ -8,7 +8,11 @@ public class TestSpring {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "applicationContext.xml"
-        );// обращается к файлу ApplicationContext и считывает его именно resources!!!
+        );
+        ClassicalMusic classicalMusic = context.getBean("musicBean", ClassicalMusic.class);
+        System.out.println(classicalMusic.getSong());
+
+        // обращается к файлу ApplicationContext и считывает его именно resources!!!
 
       //  Music music = context.getBean("musicBean", Music.class);
      //   MusicPlayer musicPlayer = new MusicPlayer(music);
