@@ -7,37 +7,6 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:component-scan base-package="com.saniazt.springdemo" />
 
-  <context:property-placeholder location="classpath:musicPlayer.properties"/>
-
-
-    <bean id="musicBean"
-        class = "com.saniazt.springdemo.ClassicalMusic"
-    init-method="doMyInit"
-    destroy-method="doMyDestroy"
-    factory-method="getClassicalMusic">
-    </bean>
-    <bean id="musicBean1"
-          class = "com.saniazt.springdemo.RockMusic">
-    </bean>
-    <bean id="musicBean2"
-          class = "com.saniazt.springdemo.RapMusic">
-    </bean>
-    <bean id="musicBean3"
-          class="com.saniazt.springdemo.RockMusic">
-    </bean>
-
-    <bean id="musicPlayer" class="com.saniazt.springdemo.MusicPlayer"
-    scope="prototype">
-        <property name="musicList">
-            <list>
-                <ref bean="musicBean" />
-                <ref bean="musicBean1" />
-                <ref bean="musicBean2" />
-                <ref bean="musicBean3" />
-            </list>
-        </property>
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
 </beans>

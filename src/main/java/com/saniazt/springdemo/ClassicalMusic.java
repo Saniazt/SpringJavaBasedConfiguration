@@ -1,5 +1,8 @@
 package com.saniazt.springdemo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClassicalMusic implements Music{
     private ClassicalMusic(){}; //даем понять что для создание обьектов этого класса нужно использовать фабричный метод
 
