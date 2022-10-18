@@ -2,24 +2,14 @@ package com.saniazt.springdemo;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Component
 public class ClassicalMusic implements Music{
-    private ClassicalMusic(){}; //даем понять что для создание обьектов этого класса нужно использовать фабричный метод
-
-    public static ClassicalMusic getClassicalMusic(){
-        return new ClassicalMusic();
-    }
-
-    public void doMyInit(){
-        System.out.println("Doing my initialization");
-    }
-
-    public void doMyDestroy(){
-        System.out.println("Doing my destruction");
-    }
-
+    List<String> listOfClassicalSongs = List.of("Classical1","Classical2","Classical3");
     @Override
     public String getSong() {
-        return "Hungarian Rhapsody";
+        return listOfClassicalSongs.toString();
     }
 }

@@ -2,10 +2,15 @@ package com.saniazt.springdemo;
 
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+import java.util.Random;
+
 @Component
 public class RockMusic implements Music{
+    List<String> listOfRockSongs = List.of("Rock1","Rock2","Rock3");
+
     @Override
     public String getSong() {
-        return "Rock song for you";
+        return listOfRockSongs.toString();
     }
 }
