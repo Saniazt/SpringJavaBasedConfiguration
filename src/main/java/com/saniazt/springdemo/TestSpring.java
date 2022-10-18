@@ -18,6 +18,7 @@ public class TestSpring {
         MusicPlayer musicPlayer2 = new MusicPlayer(music2);
         musicPlayer2.playMusic();
 
+
         context.close(); //Обязательно в конце
     }
 }
