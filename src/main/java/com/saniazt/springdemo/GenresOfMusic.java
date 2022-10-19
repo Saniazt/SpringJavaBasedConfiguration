@@ -1,5 +1,5 @@
 package com.saniazt.springdemo;
 
 public enum GenresOfMusic {
-    CLASSICAL, ROCK
+    CLASSICAL, ROCK,JAZZ,RAP
 }

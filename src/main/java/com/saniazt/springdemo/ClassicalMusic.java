@@ -6,12 +6,12 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import java.util.ArrayList;
-import java.util.List;
+
+
 
 
 @Component
-@Scope("singleton")
+@Scope("prototype")
 public class ClassicalMusic implements Music{
 
     @PostConstruct
